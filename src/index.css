@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply dark:bg-Primery bg-white leading-loose dark:text-white text-Primery z-0;
+  }
+  h1 {
+    @apply md:text-3xl text-2xl font-bold;
+  }
+  * {
+    @apply font-JetBrainsMono;
+  }
+  .main-container {
+    @apply lg:px-[90px] md:px-[35px] px-[20px];
+  }
+}
