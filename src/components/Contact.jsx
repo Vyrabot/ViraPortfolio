@@ -67,23 +67,23 @@ function Contact() {
           >
             <h2 className="text-2xl">CONTACT DETAILS</h2>
             <div className="mt-4 *:mt-4">
-              <div className="flex items-center gap-2 flex-col justify-center md:justify-start md:flex-row">
+              <div className="flex items-center gap-2 justify-center md:justify-start flex-row">
                 <RiPhoneFill className="text-2xl text-accent" />
                 <p>+885 97 30 56 747</p>
               </div>
-              <div className="flex items-center gap-2 flex-col justify-center md:justify-start md:flex-row">
+              <div className="flex items-center gap-2 justify-center md:justify-start flex-row">
                 <RiEarthFill className="text-2xl text-accent" />
                 <p>www.chamreunvira.com</p>
               </div>
-              <div className="flex items-center gap-2 flex-col justify-center md:justify-start md:flex-row">
+              <div className="flex items-center gap-2 justify-center md:justify-start flex-row">
                 <MdEmail className="text-2xl text-accent" />
                 <p>chamreunvira@gmail.com</p>
               </div>
-              <div className="flex items-center gap-2 flex-col justify-center md:justify-start md:flex-row">
+              <div className="flex items-center gap-2 justify-center md:justify-start flex-row">
                 <RiFacebookFill className="text-2xl text-accent" />
                 <p>Chamreun Vira</p>
               </div>
-              <div className="flex items-center gap-2 flex-col justify-center md:justify-start md:flex-row">
+              <div className="flex items-center gap-2 justify-center md:justify-start flex-row">
                 <RiUserLocationFill className="text-2xl text-accent" />
                 <p>Phnum Phenh City</p>
               </div>
