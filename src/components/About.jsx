@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import mainLogo from "../../src/assets/vira-main-log.png";
 import {
   DiHtml5,
   DiCss3,
@@ -11,7 +12,9 @@ import SkillBar from "./UI/SkillBar";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Projects from "./UI/Project";
-
+import imgInstict from "../assets/instinct.jpg";
+import imgRupp from "../assets/slider1.jpg";
+import { IoSchoolSharp } from "react-icons/io5";
 const AboutPage = () => {
   useEffect(() => {
     Aos.init();
@@ -39,7 +42,7 @@ const AboutPage = () => {
         <h1 className="text-2xl font-bold text-accent">About Me</h1>
         <div className="flex justify-center">
           <img
-            src="../../src/assets/vira-main-log.png"
+            src={mainLogo}
             bg-gray-100
             alt="Vira's Logo"
             className="w-44 h-44 rounded-full object-cover border-2 mt-4 md:mt-8 border-accent"
@@ -80,7 +83,7 @@ const AboutPage = () => {
         <h2 className="text-3xl font-bold dark:text-white text-Primery mb-6">
           Welcome to My Portfolio
         </h2>
-        <p className="dark:text-gray-300 text-gray-700 mb-4">
+        <p className="dark:text-gray-300 text-gray-700 mb-4 indent-4">
           Hello and welcome! I'm{" "}
           <span className="font-bold text-accent">Chamreun Vira</span>, a
           passionate and creative web developer with a strong focus on building
@@ -88,7 +91,7 @@ const AboutPage = () => {
           elegant user interfaces or solving complex technical challenges, I
           thrive on turning ideas into reality.
         </p>
-        <p className="dark:text-gray-300 text-gray-700 mb-4">
+        <p className="dark:text-gray-300 text-gray-700 mb-4 indent-4">
           On this page, you'll find everything you need to know about my
           journey, skills, and projects. Feel free to explore the sections below
           to learn more about my{" "}
@@ -97,7 +100,7 @@ const AboutPage = () => {
           and{" "}
           <span className="font-bold text-green-500">personal background</span>.
         </p>
-        <p className="dark:text-gray-300 text-gray-700">
+        <p className="dark:text-gray-300 text-gray-700 indent-4">
           If you're interested in collaborating or have any questions, don't
           hesitate to reach out. Let's create something amazing together!
         </p>
@@ -124,11 +127,42 @@ const AboutPage = () => {
             </div>
             {modaldailog === "education" && (
               <div>
-                <p className="text-gray-300">
-                  I studied at{" "}
-                  <span className="font-bold">Instinct Institute</span> And ,
-                  where I gained knowledge in web development and programming.
-                </p>
+                <div>
+                  <h3 className="text-xl flex gap-2 text-blue-700">
+                    <IoSchoolSharp className="text-accent-hover text-2xl" />{" "}
+                    Instict Intisute
+                  </h3>
+                  <p className="dark:text-gray-300 text-gray-700 indent-4">
+                    My first school is instinct institute. I studied a short
+                    training course for three months. With Teacher Mr.{" "}
+                    <span className="font-semibold text-xl text-blue-500">
+                      LONG MADETH
+                    </span>
+                    . And Instinct Institute also taught me a lot about major
+                    font end developer. Thank you so much Teacher Madeth.{" "}
+                  </p>
+                  <img
+                    src={imgInstict}
+                    alt="instict"
+                    className="mt-2 rounded-xl w-full h-[250px] md:h-[430px] lg:h-[520px] object-top"
+                  />
+                </div>
+                <hr className="m-8 rounded-full dark:text-white text-black" />
+                <div>
+                  <h3 class="text-xl flex gap-2 text-red-700">
+                    <IoSchoolSharp className="text-accent-hover text-2xl" />{" "}
+                    RUPP University
+                  </h3>
+                  <p className="dark:text-gray-300 text-gray-700">
+                    My seconde school is RUPP University of Phnum Phenh.Sorry no
+                    background because, I'm newbie at RUPP {":("}
+                  </p>
+                  <img
+                    src={imgRupp}
+                    alt="Rupp"
+                    className="mt-2 rounded-xl object-center h-[250px] md:h-[430px] lg:h-[520px]"
+                  />
+                </div>
               </div>
             )}
             {modaldailog === "skills" && (
@@ -172,7 +206,7 @@ const AboutPage = () => {
               </div>
             )}
             {modaldailog === "about" && (
-              <div className="space-y-2 dark:text-gray-300 text-gray-700">
+              <div className="space-y-2 dark:text-gray-300 text-gray-700 indent-4">
                 My name is{" "}
                 <span className="text-xl text-accent-hover">Chamreun Vira</span>{" "}
                 I am 18 years old. In my free time, I improve my skills and
@@ -182,7 +216,7 @@ const AboutPage = () => {
                 </span>{" "}
                 And{" "}
                 <span className="text-red-600 font-semibold text-xl">
-                  RUPP University
+                  RUPP University{" "}
                 </span>
                 of Phnom Penh and my major is Software Engineering. In the
                 future, I want to be a Web-Developer and Cyber-Security expert.

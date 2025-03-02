@@ -95,6 +95,13 @@ function Contact() {
           </div>
         </div>
       </div>
+      <div className="w-full h-[150px] md:h-[250px] rounded-md overflow-hidden mt-16">
+        <iframe
+          className="w-full h-full"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d284677.57715565845!2d104.72537628291832!3d11.57931763901341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513dc76a6be3%3A0x9c010ee85ab525bb!2sPhnom%20Penh!5e1!3m2!1sen!2skh!4v1731968055250!5m2!1sen!2skh"
+          frameborder="1"
+        ></iframe>
+      </div>
     </section>
   );
 }

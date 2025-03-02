@@ -1,24 +1,28 @@
 import React, { useState } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import imgProject1 from "../../../src/assets/project1.png";
+import imgProject2 from "../../../src/assets/project2.png";
+import imgProject3 from "../../../src/assets/project3.png";
+import imgProject4 from "../../../src/assets/project4.png";
 const projects = [
   {
     title: "Project 1",
-    image: "../../src/assets/project1.png",
+    image: imgProject1,
     link: "https://ch-vira.vercel.app/",
   },
   {
     title: "Project 2",
-    image: "../../src/assets/project2.png",
+    image: imgProject2,
     link: "https://viraacadamy.vercel.app/",
   },
   {
     title: "Project 3",
-    image: "../../src/assets/project3.png",
+    image: imgProject3,
     link: "https://kat0zy.vercel.app/",
   },
   {
     title: "Project 4",
-    image: "../../src/assets/project4.png",
+    image: imgProject4,
     link: "https://caculatorbyvira.vercel.app/",
   },
 ];

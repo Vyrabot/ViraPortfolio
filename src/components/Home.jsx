@@ -1,15 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import HireBtn from "./UI/MainBtn";
 import Socail from "./UI/Socail";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Stat from "./Stat";
 import mainLogo from "../../src/assets/vira-main-log.png";
+
 function Home() {
   useEffect(() => {
     Aos.init();
   }, []);
-
   return (
     <section className="dark:bg-Primery bg-white min-h-screen w-full relative z-0 pb-10 py-20 md:pt-32 lg:pt-36 xl:py-40 sm:overflow-hidden lg:overflow-hidden">
       <div className="main-container z-10 flex flex-col items-center md:flex-row-reverse justify-center w-full h-full gap-4">
