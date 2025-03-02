@@ -153,7 +153,7 @@ const AboutPage = () => {
                     <IoSchoolSharp className="text-accent-hover text-2xl" />{" "}
                     RUPP University
                   </h3>
-                  <p className="dark:text-gray-300 text-gray-700">
+                  <p className="dark:text-gray-300 text-gray-700 indent-4">
                     My seconde school is RUPP University of Phnum Phenh.Sorry no
                     background because, I'm newbie at RUPP {":("}
                   </p>
