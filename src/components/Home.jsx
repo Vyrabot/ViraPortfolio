@@ -4,7 +4,7 @@ import Socail from "./UI/Socail";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Stat from "./Stat";
-
+import mainLogo from "../../src/assets/vira-main-log.png";
 function Home() {
   useEffect(() => {
     Aos.init();
@@ -20,7 +20,7 @@ function Home() {
         >
           <div className="relative bg-gray-700 w-[205px] h-[205px] sm:w-[255px] sm:h-[255px] md:w-[305px] md:h-[305px] lg:w-[405px] lg:h-[405px] flex items-center justify-center rounded-full overflow-hidden after:content-[''] after:absolute after:inset-x-[100px] after:-inset-y-12 after:bg-accent after:animate-spin hover:after:inset-[-1px] hover:after:bg-white">
             <img
-              src="../../src/assets/vira-main-log.png"
+              src={mainLogo}
               alt="logo"
               className="z-10 w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] rounded-full object-cover"
             />

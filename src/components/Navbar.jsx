@@ -12,7 +12,7 @@ function Navbar() {
         <div className="main-container flex justify-between items-center">
           <div>
             <h1 className="text-accent cursor-pointer text-2xl md:text-3xl lg:text-4xl font-bold">
-              Portfolio<span className="text-white">.</span>
+              Portfolio<span className="dark:text-white text-Primery">.</span>
             </h1>
           </div>
           <ul className="hidden md:flex items-center gap-7">

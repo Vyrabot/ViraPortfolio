@@ -55,7 +55,7 @@ function Services() {
     <section className="dark:bg-Primery bg-white min-h-[100vh] main-container w-full relative z-1 pb-10 py-20 md:pt-32 lg:pt-32 xl:py-32">
       <div data-aos="fade-in" data-aos-duration="3000" className="text-center">
         <h1 className="text-accent">
-          What i Do<span className="text-white">.</span>
+          What i Do<span className="dark:text-white text-Primery">.</span>
         </h1>
         <p className="dark:text-gray-400 text-gray-900">
           I offer the full spectrum of services to help org's work better.
